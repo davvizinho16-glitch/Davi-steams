@@ -1,0 +1,80 @@
+<html>
+    <html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro ONG e Relatos</title>
+  <link rel="stylesheet" href="css.css">
+ <h1>Um serviço para comunidade litorânea</h1>
+ <nav>
+    
+  <button onclick="Projetos()">meus projetos</button>
+  <button onclick="Relatos()">Relatos</button>
+  <button onclick="Perfil()">Perfil</button>
+  <button onclick="Sobre()">Sobre projetos</button>
+
+  </nav>
+  <script>
+
+    function Projetos(){
+      document.getElementById("Projetosir").style.display="block"
+      document.getElementById("Perfil1").style.display="none"
+       document.getElementById("Relatos").style.display="none"
+           document.getElementById("Sobre").style.display="none"
+
+    }
+     function Relatos(){
+      document.getElementById("Relatos").style.display="block"
+      document.getElementById("Perfil1").style.display="none"
+          document.getElementById("Projetosir").style.display="none"
+           document.getElementById("Sobre").style.display="none"
+    }
+     function Perfil(){
+      document.getElementById("Perfil1").style.display="block"
+       document.getElementById("Relatos").style.display="none"
+          document.getElementById("Projetosir").style.display="none"
+           document.getElementById("Sobre").style.display="none"
+
+
+      const NomeONG =localStorage.getItem("NomedaONG");
+      const CNPJ=localStorage.getItem("CNPJ");
+
+  
+        document.getElementById("MostrarCNPJPerfil").innerHTML=CNPJ;
+     
+        document.getElementById("MostrarNomePerfil").innerHTML=NomeONG;
+      
+    }
+     function Sobre(){
+      document.getElementById("Sobre").style.display="block"
+      document.getElementById("Perfil1").style.display="none"
+       document.getElementById("Relatos").style.display="none"
+          document.getElementById("Projetosir").style.display="none"
+    }
+  </script>
+
+ 
+  <div id="Projetosir" style="display:none";>
+    <h2>Aqui estão os projetos que você participa:</h2>
+</div>
+
+  <div id="Relatos"style="display:none";>
+    <h2>Aqui estão os relatos da comunidade:</h2>
+ </div>
+
+ <div class=".container8">
+  <div id="Perfil1"style="display:none";>
+    <h2>Seu perfil:</h2>
+    <p><b>Seu nome de ONG:</b></p>
+    <div id="MostrarNomePerfil"></div>
+    <p><b> CNPJ:</b></p>
+    <div id="MostrarCNPJPerfil"></div>
+    </div>
+  </div>
+
+  <div id="Sobre"style="display:none">
+    
+ 
+  
+  </div>
+  
+  

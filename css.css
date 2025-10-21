@@ -1,0 +1,106 @@
+#css
+
+body{
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-align: center;
+    gap: 16px;
+    border: 10px;
+    margin: 10px auto;
+    padding: 10px;
+    background-image: url("ef441235d06341bf242145cb8efec981.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    font-size: 30px;
+    
+}
+h1{
+  text-align: center;
+}
+p{
+  font-size: 15px;
+  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.MostrarInfo{display: block;
+  font-size: 24px;
+  
+}
+head{
+   font-family: 'Courier New', Courier, monospace;
+
+}
+button{
+   background:linear-gradient(rgba(61, 57, 60, 0.795),rgb(209, 82, 209));
+   background-color: rgb(89, 89, 218);
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+ button:hover{
+   background:linear-gradient(rgb(43, 43, 48),rgb(219, 2, 219));
+   padding: 10px;
+   border-radius: 5px;
+   cursor: pointer;
+}
+input{
+    border-color: aliceblue;
+
+}
+input:hover{
+    background-color: antiquewhite;
+}
+
+nav {
+  background-image: url("ef441235d06341bf242145cb8efec981");
+  background-color: #004080;   /* cor de fundo */
+  padding: 15px;              /* espaço interno */
+  text-align: center;   
+  margin: 30px;      /* centraliza os botões */
+}
+
+nav button {
+  background-color: #008CBA;  /* cor dos botões */
+  color: white;               /* cor do texto */
+  border: none;               /* sem borda */
+  padding: 10px;         /* tamanho do botão */
+  margin: 30px;                /* espaço entre os botões */
+  border-radius: 5px;         /* cantos arredondados */
+  cursor: pointer;            /* cursor de mãozinha */
+  font-size: 16px;            /* tamanho da fonte */
+}
+
+nav button:hover {
+  background-color: #005f73;  /* cor quando passa o mouse */
+}
+.container{
+  background:linear-gradient(rgb(238, 192, 92),rgb(255, 179, 14));
+  width: 100px;
+  height: 150px;
+  border:1px solid black;
+  border-radius: 6px;
+  text-align: start;
+}
+.Perfil{
+  transition: step-start 1s;
+  background-color: rgb(54, 54, 54);
+}
+.Perfil button{
+  padding: 10px 20px;
+  background-color: #008CBA;
+  background: #005f73;
+}
+.container1{
+  display: none;
+  width: auto;
+  height: 200px;
+  background-color: rgb(136, 194, 241);
+  border: none;
+  border-radius: 9px
+
+}
+.container8{
+  h2{size: 10px;}
+  p{size: 3px;}
+ 
+}
+
+
