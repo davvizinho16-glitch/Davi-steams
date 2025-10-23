@@ -1,20 +1,7 @@
-<html lang="pt-BR">
-<head>
-  <meta charset="UTF-8">
-  <title>Cadastro ONG e Relatos</title>
-  <link rel="stylesheet" href="davi.css">
-</head>
-<body>
+# 🌐 Davi Steams
 
-  <button onclick="Ir()">Ir ao site</button>
+Bem-vindo(a)!
 
-  <script>
-    function Ir() {
-      window.location.href = "https://davvizinho16-glitch.github.io/Davi-steams/";
-    }
-  </script>
-
-</body>
-</html>
+👉 [Acesse o site aqui](https://davvizinho16-glitch.github.io/Davi-steams/)
 
   
