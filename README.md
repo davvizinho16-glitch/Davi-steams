@@ -48,6 +48,5 @@ window.location.href = "Untitled-1.html atuali.html 2.html";
 
      
    </script>
-</body>
-</html>
+
   
