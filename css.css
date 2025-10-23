@@ -97,10 +97,23 @@ nav button:hover {
   border-radius: 9px
 
 }
-.container8{
-  h2{size: 10px;}
-  p{size: 3px;}
- 
+
+#Sobre{
+  background-image: url('ef441235d06341bf242145cb8efec981.jpg'); 
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  height: 100vh; 
+
+  }
+
+  h6{
+    size: 40px;
 }
+  #Sobre, p{
+    size: 20px;
+}
+
+
 
 
