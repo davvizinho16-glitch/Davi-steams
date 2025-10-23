@@ -1,7 +1,3 @@
-# Projeto: Cadastro ONG e Relatos
-
-Clique no botão abaixo para abrir o site hospedado (substitua USERNAME e REPO pelo seu usuário e repositório):
-
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
@@ -14,10 +10,11 @@ Clique no botão abaixo para abrir o site hospedado (substitua USERNAME e REPO p
 
   <script>
     function Ir() {
-      window.location.href = "Untitled-1.html atuali.html 2.html"; // ou o nome correto do arquivo
+      window.location.href = "https://davvizinho16-glitch.github.io/Davi-steams/";
     }
   </script>
 
 </body>
 </html>
+
   
