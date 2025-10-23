@@ -22,7 +22,7 @@ https://github.com/davvizinho16-glitch/Davi-steams/blob/5618798c41ec0abb8ad72647
 4. Salve. Depois de alguns minutos o site estará disponível em:
    `https://davvizinho16-glitch.github.io/Davi-steams`
 
-<!DOCTYPE html>
+
 <html>
 
 <html lang="pt-BR">
@@ -49,4 +49,5 @@ window.location.href = "Untitled-1.html atuali.html 2.html";
      
    </script>
 </body>
+</html>
   
