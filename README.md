@@ -25,6 +25,18 @@ https://github.com/davvizinho16-glitch/Davi-steams/blob/5618798c41ec0abb8ad72647
 <!DOCTYPE html>
 <html>
 
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <title>Cadastro ONG e Relatos</title>
+  <link rel="stylesheet" href="davi.css">
+ 
+
+
+  </head>
+
+  <body>
+
 <button onclick="Ir()">Vamos lá </button>
 
 
@@ -36,5 +48,5 @@ window.location.href = "Untitled-1.html atuali.html 2.html";
 
      
    </script>
-
+</body>
   
