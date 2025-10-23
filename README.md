@@ -14,7 +14,7 @@ Clique no botão abaixo para abrir o site hospedado (substitua USERNAME e REPO p
 
   <script>
     function Ir() {
-      window.location.href = "Untitled-1.html atuali.html 2 (1).index.html"; // ou o nome correto do arquivo
+      window.location.href = "Untitled-1.html atuali.html 2.html"; // ou o nome correto do arquivo
     }
   </script>
 
