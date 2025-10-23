@@ -13,6 +13,8 @@ ou use o link direto:
 
 https://davvizinho16-glitch.github.io/Davi-steams
 
+https://github.com/davvizinho16-glitch/Davi-steams/blob/5618798c41ec0abb8ad726478e894170be671165/Untitled-1.html%20atuali.html%202.html
+
 ## Publicar com GitHub Pages
 1. Faça push do repositório para o GitHub.
 2. Vá em Settings > Pages.
